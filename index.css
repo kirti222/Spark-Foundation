@@ -1,0 +1,237 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+/* ........index............ */
+
+.header{
+    height:95vh;
+    background: url("shoeib-abolhassani-ukDEbYnyDsU-unsplash.jpg");
+    background-position: center;
+    /* background-color: black; */
+    background-size: cover;
+    position: relative;
+    
+}
+p,li{
+    font-size:1rem;
+    margin-bottom: 0.5em;
+    letter-spacing:0.3rem;
+    font-weight: 200;
+    list-style: none;
+}
+h1{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.17em;
+    font-weight: 700;
+}
+.container{
+    max-width: 1200[px];
+    width:90%;
+    margin:0 auto;
+}
+.text-light{
+    color:burlywood
+}
+.text-cl{
+    color:rgb(223, 142, 37)
+}
+.navb{
+    padding:1rem;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+.navb::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.logo{
+    padding-top: 0.5rem;
+}
+.navb .logo{
+    float:left;
+}
+.navb .navitem{
+    float:right;
+}
+.navb .ab{
+    display: inline-block;
+    padding:1rem;
+
+}
+
+ .navb .navitem a{
+    text-decoration: none;
+    padding-right: 20px;
+}
+.btn{
+    display: inline-block;
+    padding:0.5em 1.5em;
+    font-weight: 500px;
+    margin:0.5em;
+}
+
+.btn-pri{
+    background-color: rgb(204, 202, 66);
+    border-radius: 10em;
+    
+}
+.btn:hover{
+    background-color: rgb(221, 221, 28);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navb a:link,
+.navb a:visited{
+    color:#f4f4f4;
+}
+
+.navb a:hover{
+    border-bottom: 1px solid rgb(168, 121, 34);
+    font-size: bold;
+    background-color: rgb(121, 119, 117);
+    padding:1rem;
+}
+
+.sec1{
+    position:absolute;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    
+}
+
+
+/* .....contact..... */
+
+.contact{
+    padding: 3em;
+}
+
+.first .left i{
+    display:inline-block;
+    margin-right: 1rem;
+}
+
+.first .left h2{
+    display: inline-block;
+    
+}
+
+.first .left{
+    float:left;
+    width:49%;
+    border:2px solid red;
+    background-color: honeydew;
+    height: 780px;
+    padding: 3rem 3rem;
+}
+
+.first .left img{
+    padding-top: 2rem;
+    max-width:90%;
+    min-height: 20rem;
+    object-fit: cover;
+}
+
+.first .right{
+    font-size: 1rem;;
+    float:right;
+    width:45%;
+    border:2px solid green;
+    background-color: honeydew;
+    height: 780px;
+    padding: 3rem 3rem;
+    
+}
+.first::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.right .button{
+    display: block;
+    background-color: orange;
+    color:white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding:1rem;
+    margin: 0 auto;
+    outline:none;
+    cursor: pointer;
+    border:none;
+}
+.right h2{
+    border-bottom: 2px solid rgb(243, 62, 62);
+}
+
+.right label{
+    display: block;
+}
+
+.right .formq input{
+    padding:0.5rem;
+    width:100%;
+    margin-bottom: 1.6rem;;
+}
+.right .formq label::after{
+    content: '*';
+    color:red;
+
+}
+
+.right .formq textarea{
+    width:100%;
+    height:300px;
+    padding: 1rem;;
+}
+
+/* ............................footer.............................. */
+.footer{
+    padding:1rem;
+    background-color: rgb(34, 31, 31);
+    text-align: center;
+}
+.social i{
+    margin:1rem;
+
+}
+
+
+/* ...........about............ */
+.about{
+    border:2px solid red;
+    background:rgb(240, 175, 72);
+}
+.about img{
+    height: 67vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 25px;
+}
+ .text-about h1{
+     color: rgb(209, 28, 28);
+     text-align: center;
+ }
+ .text-about p{
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: medium;
+     padding:0px 15px;
+ }
+
+
+ @media(max-width:540px)
+ {
+     html{
+         font-size: 10px;
+     }
+     .about img{
+         width:50%;
+     }
+ }
